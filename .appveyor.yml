@@ -9,8 +9,8 @@ install:
 environment:
   -compiler: mingw
 
-build:
-  project: add.cpp
+# build:
+#   project: add.cpp
 
-# build_script:
-#   - g++ add.cpp
+build_script:
+  - g++ add.cpp
