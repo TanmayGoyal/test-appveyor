@@ -6,8 +6,9 @@ install:
   - set PATH=%PATH%;%QTDIR%\bin;C:\MinGW\bin
 
 
-enviornment:
+environment:
   -compiler: mingw
+
 build:
   project: add.cpp
 
