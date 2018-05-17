@@ -1,0 +1,7 @@
+image: Visual Studio 2015
+configuration: Debug
+build:
+  project: add.cpp
+
+build_script:
+  - g++ add.cpp
