@@ -14,3 +14,9 @@ environment:
 
 build_script:
   - g++ add.cpp
+
+deploy:
+- provider: GitHub
+  auth_token:
+    secure: hQDQ9bqFo+fkhKBZtywbP7ZpnLzCxpIiMIgbWLYvcMSmdJ1BvIWFQU0HtNK9rikt
+  artifact: a.exe
