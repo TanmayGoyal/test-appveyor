@@ -2,7 +2,7 @@ image: Visual Studio 2015
 configuration: Debug
 
 install:
-#   - set QTDIR=C:\Qt\5.5\mingw492_32
+  - set QTDIR=C:\Qt\5.5\mingw492_32
   - set PATH=%PATH%;%QTDIR%\bin;C:\MinGW\bin
 
 
@@ -13,10 +13,11 @@ environment:
 #   project: add.cpp
 
 build_script:
-  - g++ add.cpp
+  - qmake test\test.pro
+  - test\make
 
 deploy:
 - provider: GitHub
   auth_token:
     secure: hQDQ9bqFo+fkhKBZtywbP7ZpnLzCxpIiMIgbWLYvcMSmdJ1BvIWFQU0HtNK9rikt
-  artifact: a.exe
+  artifact: test
