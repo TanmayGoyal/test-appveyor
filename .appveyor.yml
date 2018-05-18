@@ -6,10 +6,11 @@ configuration: Debug
 #   - set PATH=%PATH%;%QTDIR%\bin;C:\MinGW\bin
 
 
-before_build:
-  - set PATH=C:\msys2\bin;%QT5%\bin;%PATH%
+# before_build:
+#   - set PATH=C:\msys2\bin;%QT5%\bin;%PATH%
 
 install:
+  - set PATH=C:\msys2\bin
   - pacman -S mingw-w64-x86_64-qt-creator
 
 
