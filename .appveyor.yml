@@ -11,8 +11,7 @@ configuration: Debug
 
 install:
   ps:
-    # C:\msys64\usr\bin\bash --login -c "pacman -S  --verbose --needed --noconfirm base-devel"
-    echo hi;
+    C:\msys64\usr\bin\bash --login -c "pacman -S  --verbose --needed --noconfirm base-devel";
     echo "$?";
 
 environment:
