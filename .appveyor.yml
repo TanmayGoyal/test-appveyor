@@ -12,7 +12,7 @@ configuration: Debug
 install:
   ps:
     # C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-toolchain"
-    C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator"
+    C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-freetype; pacman -S --noconfirm mingw-w64-x86_64-qt-creator"
     # echo completed
 
   # - set PATH=C:\msys2\bin
