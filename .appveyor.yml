@@ -10,8 +10,9 @@ configuration: Debug
 #   - set PATH=C:\msys2\bin;%QT5%\bin;%PATH%
 
 install:
-  ps: C:\msys64\usr\bin\bash --login -c "pacman -S mingw-w64-x86_64-qt-creator"
-  yes
+  ps: echo yes | C:\msys64\usr\bin\bash --login -c "pacman -S mingw-w64-x86_64-qt-creator"
+  ps: 
+
   # - set PATH=C:\msys2\bin
   
 
