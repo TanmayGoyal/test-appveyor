@@ -11,7 +11,7 @@ configuration: Debug
 
 install:
   ps:
-    echo \n | C:\msys64\usr\bin\bash --login -c "pacman -S perl ruby python2 mingw-w64-x86_64-toolchain"
+    echo y | echo \n | C:\msys64\usr\bin\bash --login -c "pacman -S perl ruby python2 mingw-w64-x86_64-toolchain"
     echo yes | C:\msys64\usr\bin\bash --login -c "pacman -S mingw-w64-x86_64-qt-creator"
     echo completed
 
