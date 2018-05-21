@@ -11,7 +11,7 @@ configuration: Debug
 
 install:
   ps: echo yes | C:\msys64\usr\bin\bash --login -c "pacman -S mingw-w64-x86_64-qt-creator"
-  # ps: 
+  ps: echo done
 
   # - set PATH=C:\msys2\bin
   
