@@ -24,9 +24,11 @@ environment:
 # build:
 #   project: add.cpp
 
-# build_script:
-#   - qmake test\test.pro
-#   - test\make
+build_script:
+  ps:
+    C:\msys64\usr\bin\bash --login -c "qmake test\test.pro";
+  # - qmake test\test.pro
+  # - test\make
 
 # deploy:
 # - provider: GitHub
