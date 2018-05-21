@@ -12,8 +12,8 @@ configuration: Debug
 install:
   ps:
     # C:\msys64\usr\bin\bash --login -c "pacman -S  --verbose --needed --noconfirm base-devel"
-    echo hi
-    echo "$?"
+    echo hi;
+    echo "$?";
 
 environment:
   -compiler: msys2
