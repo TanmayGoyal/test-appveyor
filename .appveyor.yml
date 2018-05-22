@@ -26,9 +26,9 @@ install:
 
 before_build:
   cmd: 
-    set PATH=C:/msys64/mingw64/bin/
+    set PATH=C:/msys64/mingw64/bin/;
 
-  
+
 build_script:
   ps:
     C:\msys64\usr\bin\bash --login -c "qmake test\test.pro";
