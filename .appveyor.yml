@@ -14,8 +14,7 @@ install:
     C:\msys64\usr\bin\bash --login -c "pacman -S  --verbose --needed --noconfirm base-devel";
     C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
 
-  cmd: 
-    set PATH=C:/msys64/mingw64/bin/
+
 
 # environment:
 #   -compiler: msys2
@@ -25,6 +24,11 @@ install:
 # build:
 #   project: add.cpp
 
+before_build:
+  cmd: 
+    set PATH=C:/msys64/mingw64/bin/
+
+  
 build_script:
   ps:
     C:\msys64\usr\bin\bash --login -c "qmake test\test.pro";
