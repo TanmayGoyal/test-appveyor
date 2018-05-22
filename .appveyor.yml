@@ -1,5 +1,5 @@
-image: Visual Studio 2013
-configuration: Debug
+# image: Visual Studio 2013
+# configuration: Debug
 
 # install:
 #   - set QTDIR=C:\Qt\5.5\mingw492_32
@@ -11,7 +11,7 @@ configuration: Debug
 
 install:
   ps:
-    C:\msys64\usr\bin\bash --login -c "pacman -S  --verbose --needed --noconfirm base-devel";
+    C:\msys64\usr\bin\bash --login -c "pacman -S --verbose --needed --noconfirm base-devel";
     C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
 
 
