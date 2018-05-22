@@ -38,7 +38,7 @@ build_script:
   - cd test\
   - qmake test.pro
   - dir
-  - make
+  - mingw64-make
 
   # - test\make
   # cmd:
