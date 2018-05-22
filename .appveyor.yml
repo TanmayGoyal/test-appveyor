@@ -25,8 +25,10 @@ install:
 #   project: add.cpp
 
 before_build:
-  cmd: 
-    set PATH=C:/msys64/mingw64/bin/;
+  ps:
+    C:\msys64\usr\bin\bash --login -c "set PATH=C:/msys64/mingw64/bin/";
+  # cmd: 
+  #   ;
 
 
 build_script:
