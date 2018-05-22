@@ -34,11 +34,12 @@ install:
 
 build_script:
   - set PATH=%PATH%;C:\msys64\mingw64\bin\
-  - dir
+  # - dir
   - cd test\
   - qmake test.pro
-  - dir
-  - make
+  - C:\msys64\usr\bin\bash --login -c "cd C:/projects/test-appveyor/test/ && make"
+  # - dir
+  # - make
 
   # - test\make
   # cmd:
