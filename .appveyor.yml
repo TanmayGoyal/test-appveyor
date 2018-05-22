@@ -1,5 +1,5 @@
 # image: Visual Studio 2013
-# configuration: Debug
+# configura tion: Debug
 
 # install:
 #   - set QTDIR=C:\Qt\5.5\mingw492_32
@@ -9,10 +9,10 @@
 # before_build:
 #   - set PATH=C:\msys2\bin;%QT5%\bin;%PATH%
 
-install:
-  ps:
-    C:\msys64\usr\bin\bash --login -c "pacman -S --verbose --needed --noconfirm base-devel";
-    C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
+# install:
+  # ps:
+  #   C:\msys64\usr\bin\bash --login -c "pacman -S --verbose --needed --noconfirm base-devel";
+  #   C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
 
 
 
@@ -26,14 +26,16 @@ install:
 
 before_build:
   ps:
-    C:\msys64\usr\bin\bash --login -c "set PATH=C:/msys64/mingw64/bin/";
+    cd C:\msys64\;
+    ls;
+    # C:\msys64\usr\bin\bash --login -c "set PATH=C:/msys64/mingw64/bin/";
   # cmd: 
   #   ;
 
 
-build_script:
-  ps:
-    C:\msys64\usr\bin\bash --login -c "qmake test\test.pro";
+# build_script:
+#   ps:
+#     C:\msys64\usr\bin\bash --login -c "qmake test\test.pro";
   # - qmake test\test.pro
   # - test\make
 
