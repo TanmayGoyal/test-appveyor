@@ -12,8 +12,8 @@
 install:
   ps:
   #   C:\msys64\usr\bin\bash --login -c "pacman -S --verbose --needed --noconfirm base-devel";
-    cd afsdfdsfdf  -ErrorAction Ignore
-    # C:\msys64\usr\bin\bash  -ErrorAction SilentlyContinue --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
+    # cd afsdfdsfdf  -ErrorAction Ignore
+    C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator"  -ErrorAction Ignore;
 
 # environment:
 #   -compiler: msys2
