@@ -33,7 +33,7 @@ install:
 
 
 build_script:
-  - set PATH=C:\msys64\mingw64\bin\
+  - set PATH=%PATH%;C:\msys64\mingw64\bin\
   - dir
   - cd test\
   - qmake test.pro
