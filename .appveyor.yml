@@ -14,7 +14,7 @@ install:
     C:\msys64\usr\bin\bash --login -c "pacman -S  --verbose --needed --noconfirm base-devel";
     C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
 
-    set PATH=C:/msys64/mingw64/bin/ ;
+  - set PATH=C:/msys64/mingw64/bin/
 
 # environment:
 #   -compiler: msys2
