@@ -15,7 +15,7 @@ install:
     C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
     C:\msys64\usr\bin\bash --login -c "ls";
 
-    set PATH=C:/msys64/mingw64/share/qt5;
+    set PATH=C:\msys64\mingw64\share\qt5;
 
 # environment:
 #   -compiler: msys2
