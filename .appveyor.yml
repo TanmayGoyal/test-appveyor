@@ -13,7 +13,7 @@ install:
   cmd:
   #   C:\msys64\usr\bin\bash --login -c "pacman -S --verbose --needed --noconfirm base-devel";
     # cd afsdfdsfdf  -ErrorAction Ignore
-    C:\msys64\usr\bin\bash -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
+    C:\msys64\usr\bin\bash --login -c "pacman -S --noconfirm mingw-w64-x86_64-qt-creator";
 
 # environment:
 #   -compiler: msys2
