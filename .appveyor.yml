@@ -27,7 +27,7 @@ install:
 #   cmd:
     # cd C:\msys64\mingw64\bin\;
     # ls;
-    C:\msys64\usr\bin\bash --login -c "";
+    # C:\msys64\usr\bin\bash --login -c "";
   # cmd: 
   #   ;
 
