@@ -24,17 +24,17 @@ install:
 #   project: add.cpp
 
 before_build:
-  ps:
-    cd C:\msys64\mingw64\bin\;
-    ls;
-    # C:\msys64\usr\bin\bash --login -c "set PATH=C:/msys64/mingw64/bin/";
+  cmd:
+    # cd C:\msys64\mingw64\bin\;
+    # ls;
+    C:\msys64\usr\bin\bash --login -c "set PATH=C:/msys64/mingw64/bin/";
   # cmd: 
   #   ;
 
 
-# build_script:
-#   ps:
-#     C:\msys64\usr\bin\bash --login -c "qmake test\test.pro";
+build_script:
+  cmd:
+    C:\msys64\usr\bin\bash --login -c "qmake test\test.pro";
   # - qmake test\test.pro
   # - test\make
 
