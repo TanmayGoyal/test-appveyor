@@ -37,7 +37,8 @@ build_script:
   # - dir
   - cd test\
   - qmake test.pro
-  - C:\msys64\usr\bin\bash --login -c "cd C:/projects/test-appveyor/test/ && mingw32-make"
+  - mingw32-make
+  # - C:\msys64\usr\bin\bash --login -c "cd C:/projects/test-appveyor/test/ && mingw32-make"
   # - dir
   # - make
 
