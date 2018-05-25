@@ -32,6 +32,7 @@ build_script:
   # - bash -lc "pacman -S --needed --noconfirm mingw64/mingw-w64-x86_64-sqlite3"
 
   - bash -lc "cd C:/projects/test-appveyor ; ./script.sh"
+  - dir
 
 artifacts:
 - path: a.out
