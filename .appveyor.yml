@@ -34,7 +34,7 @@ build_script:
   - bash -lc "cd C:/projects/test-appveyor ; ./script.sh"
 
 deploy:
-   description: 'test description'
+  description: 'test description'
   provider: GitHub
   auth_token:
     secure: hQDQ9bqFo+fkhKBZtywbP7ZpnLzCxpIiMIgbWLYvcMSmdJ1BvIWFQU0HtNK9rikt
