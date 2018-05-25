@@ -33,6 +33,9 @@ build_script:
 
   - bash -lc "cd C:/projects/test-appveyor ; ./script.sh"
 
+artifacts:
+- path: a.out
+
 deploy:
   description: 'test description'
   provider: GitHub
