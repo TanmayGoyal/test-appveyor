@@ -31,7 +31,7 @@ build_script:
   # Install sqlite3
   # - bash -lc "pacman -S --needed --noconfirm mingw64/mingw-w64-x86_64-sqlite3"
 
-  - bash -lc "cd C:/projects/test-appveyor ; g++ add.cpp"
+  - bash -lc "cd C:/projects/test-appveyor ; ./script.sh"
 
 
 
