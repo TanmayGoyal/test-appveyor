@@ -36,6 +36,7 @@ artifacts:
 - path: a.exe
 
 deploy:
+  release: v2.0.0
   description: 'test description'
   provider: GitHub
   auth_token:
