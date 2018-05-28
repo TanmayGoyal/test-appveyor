@@ -37,11 +37,11 @@ artifacts:
 
 deploy:
   # release: v2.0.0
-  description: 'test#1 description'
+  description: 'test#2 description'
   provider: GitHub
   auth_token:
     secure: hQDQ9bqFo+fkhKBZtywbP7ZpnLzCxpIiMIgbWLYvcMSmdJ1BvIWFQU0HtNK9rikt
-  artifact: bin/a.exe
+  artifact: bin/a.*
 
 
 
